@@ -13,9 +13,34 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 .mypic {
-  margin: -120px 10px -200px 600px;
+  margin: -120px 10px -100px 700px;
   z-index: 100;
   width: 300px;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 22px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 20px;}
+}
+
+@media (max-width: @screen-md) {
+    body{font-size: 6px;}
+}
+
+@media (max-width: @screen-lg) {
+    body{font-size: 2px;}
+}
+
+
+h2{
+    font-size: 1.4em;
+} 
+
+p{
+  font-size: 1.4em;
 }
 
 html {
